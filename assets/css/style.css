@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
+aside {
+    width: 400px ;
+    height: calc(100vh - 20px);
+    background-color: rgb(226, 190, 142);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.lists {
+    list-style: none;
+    padding: 0;
+}
+
+.lists li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.lists li i {
+    color: #333;
+    font-size: 18px;
+}
