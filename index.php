@@ -9,6 +9,11 @@
     <title>Youssef Ghollamallah - CV </title>
 </head>
 <body>
+    <header>
+        <h1>GHOLLAMALLAH YOUSSEF</h1>
+        <h2>Développeur web et web mobile</h2>
+        <p>En rechercher d'une alternance Concepteur Développeur d'application.</p>
+    </header>
     <aside>
         <article>
             <h2>CONTACT</h2>
@@ -37,10 +42,42 @@
         <article>
             <h2>Soft skill</h2>
             <hr>
-
+            <ul class="lists">
+                <li>Autonome</li>
+                <li>Proactive</li>
+                <li>Gestion du stress</li>
+            </ul>
+        </article>
+        <br>
+        <article>
+            <h2>Loisirs</h2>
+            <hr>
+            <ul class="lists">
+                <li>Lecture</li>
+                <li>Cuisine</li>
+            </ul>
         </article>
     </aside>
-    <main></main>
+    <main>
+        <article>
+            <h2>à propos</h2>
+            <hr>
+            <p>Doté d'une expérience approndie dans le domaine de la restauration, j'ai récemment décidé de me réorienter vers les métiers du numérique.</p>
+            <p>Mon intérêt pour le codage me conduit à mettre en avant ma créativité, mon sens de l'observation et mon objectif d'amélioration.</p>
+            <p>Je suis persuadé que ces qualités seront des atouts précieux.</p>
+        </article>
+        <section>
+            <h2>éxperience</h2>
+            <hr>
+            <article>
+                <h3>CDPI - Développeur web et web mobile</h3>
+                <p><strong> La Plateforme_ / Aout 2024 - Juilliet 2025</strong></p>
+                <ul>
+                    <li>Projet PixelPlush : création d'un site e-commerce fictif de vente de peluche <a href="https://pixelplush.shop/" target="_blank" rel="noopener noreferrer">lien</a> - <a href="https://github.com/YoussefGhollamallah/boutique-en-ligne" target="_blank" rel="noopener noreferrer"><img class="icon" src="assets/images/github.png" alt="icon github"></a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
